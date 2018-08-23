@@ -17,7 +17,7 @@ import (
 	"runtime"
 	"testing"
 
-	"golang.org/x/sys/unix"
+	"github.com/sunnogo/sys/unix"
 )
 
 func TestSysctlUint64(t *testing.T) {

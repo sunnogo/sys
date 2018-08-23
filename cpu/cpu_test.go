@@ -8,7 +8,7 @@ import (
 	"runtime"
 	"testing"
 
-	"golang.org/x/sys/cpu"
+	"github.com/sunnogo/sys/cpu"
 )
 
 func TestAMD64minimalFeatures(t *testing.T) {

@@ -11,9 +11,9 @@ import (
 	"strings"
 	"time"
 
-	"golang.org/x/sys/windows/svc"
-	"golang.org/x/sys/windows/svc/debug"
-	"golang.org/x/sys/windows/svc/eventlog"
+	"github.com/sunnogo/sys/windows/svc"
+	"github.com/sunnogo/sys/windows/svc/debug"
+	"github.com/sunnogo/sys/windows/svc/eventlog"
 )
 
 var elog debug.Log
